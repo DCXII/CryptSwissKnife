@@ -22,8 +22,8 @@
 ██║  ██╗██║ ╚████║██║██║     ███████╗
 ╚═╝  ╚═╝╚═╝  ╚═══╝╚═╝╚═╝     ╚══════╝
 CryptoSwissKnife v1 | 63 Modules
-"One tool to encrypt, decrypt, and sign them all."
-Type 'help' for available commands or 'banner' to display banner again[0m
+One tool to encrypt, decrypt, and sign them all.
+Type 'help' for available commands or 'banner' to display banner again
 ```
 
 
