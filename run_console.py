@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-CryptoSwissKnife v3.0
+CryptSwissKnife v3.0
 Main entry point for the console.
 """
 
