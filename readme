@@ -22,13 +22,13 @@
 ██║  ██╗██║ ╚████║██║██║     ███████╗
 ╚═╝  ╚═╝╚═╝  ╚═══╝╚═╝╚═╝     ╚══════╝
 
-CryptoSwissKnife v1 | 63 Modules.
+CryptSwissKnife v1 | 63 Modules.
 One tool to encrypt, decrypt, and sign them all.
 Type 'help' for available commands or 'banner' to display banner again.
 
 > help
 
-CryptoSwissKnife Core Commands
+CryptSwissKnife Core Commands
 --------------------------------------------------
 help                      Show this help menu
 use <module>              Select a module (e.g., use caesar)
@@ -160,7 +160,7 @@ A comprehensive command-line interface (CLI) tool for various cryptographic oper
 
 ## Installation
 
-To get CryptoSwissKnife up and running on your local machine, follow these steps:
+To get CryptSwissKnife up and running on your local machine, follow these steps:
 
 ### Prerequisites
 
@@ -171,10 +171,10 @@ To get CryptoSwissKnife up and running on your local machine, follow these steps
 ### Steps
 
 1.  **Clone the Repository**:
-    First, clone the CryptoSwissKnife repository to your local machine using Git:
+    First, clone the CryptSwissKnife repository to your local machine using Git:
     ```bash
-    git clone https://github.com/DCXII/CryptoSwissKnife.git
-    cd CryptoSwissKnife
+    git clone https://github.com/DCXII/CryptSwissKnife.git
+    cd CryptSwissKnife
     ```
 
 2.  **Set up a Virtual Environment** (Recommended):
@@ -192,7 +192,7 @@ To get CryptoSwissKnife up and running on your local machine, follow these steps
 
 ## Usage
 
-Once installed, you can launch the CryptoSwissKnife console and start exploring its features.
+Once installed, you can launch the CryptSwissKnife console and start exploring its features.
 
 ### Running the Console
 
@@ -200,7 +200,7 @@ To start the interactive console, run:
 ```bash
 python3 run_console.py
 ```
-You will be greeted by the CryptoSwissKnife banner and a `crypto >` prompt.
+You will be greeted by the CryptSwissKnife banner and a `crypto >` prompt.
 
 ### Basic Commands
 
@@ -220,7 +220,7 @@ You will be greeted by the CryptoSwissKnife banner and a `crypto >` prompt.
     ```
 *   `run`: Executes the selected module with the currently set options.
 *   `back`: Deselects the current module, returning to the main `crypto >` prompt.
-*   `exit` or `quit`: Exits the CryptoSwissKnife console.
+*   `exit` or `quit`: Exits the CryptSwissKnife console.
 
 ### Example: Encrypting with Caesar Cipher
 
@@ -264,14 +264,14 @@ You will be greeted by the CryptoSwissKnife banner and a `crypto >` prompt.
     crypto (caesar) > back
     [+] Module deselected
     crypto > exit
-    [+] Thanks for using CryptoSwissKnife!
+    [+] Thanks for using CryptSwissKnife!
     ```
 
 ## Project Structure
 
 The project is organized as follows:
 
-*   `csk/`: Contains the core logic of the CryptoSwissKnife.
+*   `csk/`: Contains the core logic of the CryptSwissKnife.
     *   `console.py`: Manages the interactive command-line interface.
     *   `engine.py`: Houses the implementations of various cryptographic algorithms.
     *   `utils.py`: Utility functions and classes (e.g., color formatting).
@@ -291,4 +291,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Console Overview
 
-Here's an overview of the CryptoSwissKnife console, including its banner, available commands, and modules.
+Here's an overview of the CryptSwissKnife console, including its banner, available commands, and modules.
