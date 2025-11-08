@@ -211,7 +211,7 @@ class CryptoConsole:
             if instance.name:
                 self.modules[instance.name] = module_class
         
-        self.workspace = os.path.expanduser("~/.cryptoswissknife")
+        self.workspace = os.path.expanduser("~/.CryptSwissKnife")
         os.makedirs(self.workspace, exist_ok=True)
         
         self.intro = rf"""
@@ -237,7 +237,7 @@ class CryptoConsole:
 ██║  ██╗██║ ╚████║██║██║     ███████╗     
 ╚═╝  ╚═╝╚═╝  ╚═══╝╚═╝╚═╝     ╚══════╝   
 {Colors.ENDC}
-{Colors.OKGREEN}CryptoSwissKnife v1 | 63 Modules{Colors.ENDC}
+{Colors.OKGREEN}CryptSwissKnife v1 | 63 Modules{Colors.ENDC}
 {Colors.WARNING}"One tool to encrypt, decrypt, and sign them all."{Colors.ENDC}
 {Colors.WARNING}Type 'help' for available commands or 'banner' to display banner again{Colors.ENDC}
     """
@@ -284,7 +284,7 @@ class CryptoConsole:
         if self.current_module:
             return f"Module: {self.current_module.name} | {self.current_module.description}"
         else:
-            return "CryptoSwissKnife v2.20 | No module selected"
+            return "CryptSwissKnife v2.20 | No module selected"
             
     def get_key_bindings(self):
         """Setup custom keybindings (e.g., Ctrl+C, Ctrl+D)"""
@@ -379,7 +379,7 @@ class CryptoConsole:
     
     def _handle_help(self, args):
         """Display help message in a table"""
-        table = Table(title="CryptoSwissKnife Core Commands", show_header=True, header_style="bold magenta")
+        table = Table(title="CryptSwissKnife Core Commands", show_header=True, header_style="bold magenta")
         table.add_column("Command", style="cyan", no_wrap=True)
         table.add_column("Description", style="green")
         
@@ -533,8 +533,8 @@ class CryptoConsole:
 
     def _handle_version(self, args):
         """Display version information"""
-        print(f"\n{Colors.BOLD}CryptoSwissKnife v2.20 (Asymmetric Modules){Colors.ENDC}")
-        print("Author: CryptoSwissKnife Team")
+        print(f"\n{Colors.BOLD}CryptSwissKnife v2.20 (Asymmetric Modules){Colors.ENDC}")
+        print("Author: CryptSwissKnife Team")
         print(f"Python Version: {sys.version.split()[0]}")
         print(f"Workspace: {self.workspace}\n")
 
@@ -556,7 +556,7 @@ class CryptoConsole:
                 print(f"\n{Colors.WARNING}[!] Command cancelled.{Colors.ENDC}")
                 continue
             except EOFError:
-                print(f"\n{Colors.OKGREEN}[+] Thanks for using CryptoSwissKnife!{Colors.ENDC}")
+                print(f"\n{Colors.OKGREEN}[+] Thanks for using CryptSwissKnife!{Colors.ENDC}")
                 break
             except Exception as e:
                 print(f"{Colors.FAIL}[-] An unexpected error occurred: {e}{Colors.ENDC}")
